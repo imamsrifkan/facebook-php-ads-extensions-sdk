@@ -1,0 +1,6 @@
+/vendor
+/test
+/composer.lock
+/composer.phar
+/composer.local.*
+.DS_Store

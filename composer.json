@@ -1,21 +1,16 @@
 {
     "name": "imamsrifkan/facebook-php-ads-extensions-sdk",
-    "description": "PHP extension SDK for Facebook ads",
+    "description": "PHP Extension SDK for Facebook Ads",
     "type": "library",
+    "require": {
+        "facebook/php-ads-sdk": "^2.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7",
+        "symfony/finder": "^3.2"
+    },
     "license": "MIT",
-    "keywords": [
-      "facebook",
-      "ads",
-      "sdk",
-      "extensions"
-    ],
-    "require" : {
-        "facebook/php-ads-sdk": "2.8.*"
-    },
-    "require-dev" : {
-        "phpunit/phpunit": "~4.6",
-        "symfony/finder": "~2.6"
-    },
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "FacebookAdsExtensions\\": "src/FacebookAdsExtensions/"
