@@ -9,10 +9,12 @@
       "sdk",
       "extensions"
     ],
+    "require" : {
+        "facebook/php-ads-sdk": "2.8.*"
+    },
     "require-dev" : {
         "phpunit/phpunit": "~4.6",
         "symfony/finder": "~2.6",
-        "facebook/php-ads-sdk": "2.8.*"
     },
     "autoload": {
         "psr-4": {
